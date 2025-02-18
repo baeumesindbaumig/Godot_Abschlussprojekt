@@ -1,0 +1,53 @@
+[gd_scene load_steps=6 format=3 uid="uid://cle10fbiekgld"]
+
+[ext_resource type="Script" path="res://steuerungsszene.gd" id="1_1y4fl"]
+[ext_resource type="Texture2D" uid="uid://crdihsoytsrl3" path="res://Startscreen.png" id="1_o66x1"]
+[ext_resource type="Texture2D" uid="uid://duw2a8eldvwn2" path="res://Button2.png" id="3_naer0"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_rhw13"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_mlcnu"]
+texture = ExtResource("3_naer0")
+
+[node name="ControlScreen" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_1y4fl")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("1_o66x1")
+
+[node name="TextEdit" type="TextEdit" parent="."]
+layout_mode = 0
+offset_left = 195.0
+offset_top = 348.0
+offset_right = 724.0
+offset_bottom = 514.0
+theme_override_colors/word_highlighted_color = Color(0, 0, 0, 1)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 35
+theme_override_styles/normal = SubResource("StyleBoxEmpty_rhw13")
+text = "A			nach links drehen
+D			nach rechts drehen
+Esc		zurück zum Hauptmenü"
+
+[node name="BackButton" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.04
+anchor_bottom = 0.024
+offset_left = 279.0
+offset_top = 656.0
+offset_right = 507.2
+offset_bottom = 786.08
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 40
+theme_override_styles/normal = SubResource("StyleBoxTexture_mlcnu")
+text = "zurück"
