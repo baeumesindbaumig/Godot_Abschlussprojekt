@@ -34,8 +34,8 @@ theme_override_colors/word_highlighted_color = Color(0, 0, 0, 1)
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 35
 theme_override_styles/normal = SubResource("StyleBoxEmpty_rhw13")
-text = "A			nach links drehen
-D			nach rechts drehen
+text = "A	 /  <-		nach links drehen
+D  /  ->			nach rechts drehen
 Esc		zurück zum Hauptmenü"
 
 [node name="BackButton" type="Button" parent="."]
