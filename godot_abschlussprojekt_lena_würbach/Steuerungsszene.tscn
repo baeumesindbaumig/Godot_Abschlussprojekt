@@ -26,16 +26,18 @@ texture = ExtResource("1_o66x1")
 
 [node name="TextEdit" type="TextEdit" parent="."]
 layout_mode = 0
-offset_left = 195.0
-offset_top = 348.0
-offset_right = 724.0
-offset_bottom = 514.0
+offset_left = 120.0
+offset_top = 280.0
+offset_right = 816.0
+offset_bottom = 570.0
 theme_override_colors/word_highlighted_color = Color(0, 0, 0, 1)
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 35
 theme_override_styles/normal = SubResource("StyleBoxEmpty_rhw13")
-text = "A	 /  <-		nach links drehen
-D  /  ->			nach rechts drehen
+text = "A			nach links drehen
+D			nach rechts drehen
+E			Kühlschranktür öffnen/schließen
+L			Lampe ein-/ausschalten
 Esc		zurück zum Hauptmenü"
 
 [node name="BackButton" type="Button" parent="."]

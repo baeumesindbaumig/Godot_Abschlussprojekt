@@ -1,6 +1,6 @@
 extends MeshInstance3D
 
-@export var open_rotation = deg_to_rad(100)  # Wie weit sich die Tür öffnet
+@export var open_rotation = deg_to_rad(-100)  # Wie weit sich die Tür öffnet
 @export var closed_rotation = deg_to_rad(0)  # Winkel der geschlossenen Tür
 
 var door_open = false  # Tür-Zustand
