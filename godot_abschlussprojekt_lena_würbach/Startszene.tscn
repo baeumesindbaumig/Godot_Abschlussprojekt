@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://j608j7hqx84o"]
 
 [ext_resource type="Script" path="res://start_screen.gd" id="1_0japk"]
-[ext_resource type="Texture2D" uid="uid://crdihsoytsrl3" path="res://Startscreen.png" id="2_ci6q6"]
+[ext_resource type="Texture2D" uid="uid://cn5wxoa431xw0" path="res://Materials/Startscreen2.png" id="2_eypk7"]
 [ext_resource type="Texture2D" uid="uid://duw2a8eldvwn2" path="res://Button2.png" id="3_ednbo"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_2dptp"]
@@ -20,17 +20,17 @@ script = ExtResource("1_0japk")
 layout_mode = 0
 offset_right = 1920.0
 offset_bottom = 1080.0
-texture = ExtResource("2_ci6q6")
+texture = ExtResource("2_eypk7")
 
 [node name="StartButton" type="Button" parent="."]
 layout_mode = 1
 anchors_preset = -1
 anchor_right = 0.04
 anchor_bottom = 0.024
-offset_left = 256.0
-offset_top = 223.0
-offset_right = 484.2
-offset_bottom = 353.08
+offset_left = 325.0
+offset_top = 268.0
+offset_right = 553.2
+offset_bottom = 398.08
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 40
 theme_override_styles/normal = SubResource("StyleBoxTexture_2dptp")
@@ -41,10 +41,10 @@ layout_mode = 1
 anchors_preset = -1
 anchor_right = 0.04
 anchor_bottom = 0.024
-offset_left = 255.0
-offset_top = 439.0
-offset_right = 483.2
-offset_bottom = 569.08
+offset_left = 324.0
+offset_top = 484.0
+offset_right = 552.2
+offset_bottom = 614.08
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 40
 theme_override_styles/normal = SubResource("StyleBoxTexture_2dptp")
@@ -55,10 +55,10 @@ layout_mode = 1
 anchors_preset = -1
 anchor_right = 0.04
 anchor_bottom = 0.024
-offset_left = 257.0
-offset_top = 654.0
-offset_right = 485.2
-offset_bottom = 784.08
+offset_left = 326.0
+offset_top = 699.0
+offset_right = 554.2
+offset_bottom = 829.08
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 40
 theme_override_styles/normal = SubResource("StyleBoxTexture_2dptp")
