@@ -1,7 +1,7 @@
 [gd_scene load_steps=6 format=3 uid="uid://cle10fbiekgld"]
 
 [ext_resource type="Script" path="res://steuerungsszene.gd" id="1_1y4fl"]
-[ext_resource type="Texture2D" uid="uid://cn5wxoa431xw0" path="res://Materials/Startscreen2.png" id="2_oifc7"]
+[ext_resource type="Texture2D" uid="uid://tjxeu0ckh5ce" path="res://Startscreen3.png" id="2_56vnn"]
 [ext_resource type="Texture2D" uid="uid://duw2a8eldvwn2" path="res://Button2.png" id="3_naer0"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_rhw13"]
@@ -19,16 +19,17 @@ grow_vertical = 2
 script = ExtResource("1_1y4fl")
 
 [node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 0
 offset_right = 1920.0
 offset_bottom = 1080.0
-texture = ExtResource("2_oifc7")
+texture = ExtResource("2_56vnn")
 
 [node name="TextEdit" type="TextEdit" parent="."]
 layout_mode = 0
-offset_left = 225.0
-offset_top = 339.0
-offset_right = 921.0
-offset_bottom = 629.0
+offset_left = 147.0
+offset_top = 373.0
+offset_right = 843.0
+offset_bottom = 663.0
 theme_override_colors/word_highlighted_color = Color(0, 0, 0, 1)
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 35

@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://j608j7hqx84o"]
 
 [ext_resource type="Script" path="res://start_screen.gd" id="1_0japk"]
-[ext_resource type="Texture2D" uid="uid://cn5wxoa431xw0" path="res://Materials/Startscreen2.png" id="2_eypk7"]
+[ext_resource type="Texture2D" uid="uid://tjxeu0ckh5ce" path="res://Startscreen3.png" id="2_m5gh3"]
 [ext_resource type="Texture2D" uid="uid://duw2a8eldvwn2" path="res://Button2.png" id="3_ednbo"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_2dptp"]
@@ -20,7 +20,7 @@ script = ExtResource("1_0japk")
 layout_mode = 0
 offset_right = 1920.0
 offset_bottom = 1080.0
-texture = ExtResource("2_eypk7")
+texture = ExtResource("2_m5gh3")
 
 [node name="StartButton" type="Button" parent="."]
 layout_mode = 1
